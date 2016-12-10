@@ -10,7 +10,7 @@ install:
 # Assist with ci test debugging:
 #   - DEBUG=1
 before_script:
-    - image="kylemanna/syncthing-relay"
+    - image="derenderkeks/syncthing-relay"
     - docker build -t "$image" .
     - docker inspect "$image"
 
