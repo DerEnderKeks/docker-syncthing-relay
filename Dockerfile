@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER Kyle Manna <kyle@kylemanna.com>
+MAINTAINER DerEnderKeks <admin@derenderkeks.me>
 
 # Get upstream builds from: https://build.syncthing.net/job/strelaysrv/lastSuccessfulBuild/artifact/
 ENV NAME     strelaysrv
