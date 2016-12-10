@@ -22,4 +22,4 @@ WORKDIR /relaysrv
 
 EXPOSE 22067 22070
 
-CMD ["/usr/local/bin/strelaysrv", "-provided-by=${PROVIDER}"]
+CMD /usr/local/bin/strelaysrv -provided-by="${PROVIDER}"
