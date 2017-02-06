@@ -3,7 +3,7 @@ MAINTAINER DerEnderKeks <admin@derenderkeks.me>
 
 # Get upstream builds from: https://build.syncthing.net/job/strelaysrv/lastSuccessfulBuild/artifact/
 ENV NAME     strelaysrv
-ENV JOB      323
+ENV JOB      484
 ENV VERSION  v0.14.13+18-g5070d52
 ENV ARCH     linux-amd64
 ENV RELEASE  ${NAME}-${ARCH}-${VERSION}
