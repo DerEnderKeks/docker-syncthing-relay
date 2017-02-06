@@ -14,14 +14,14 @@ Extensively tested on Digital Ocean $5/mo node
 
 ## Upstream Links
 
-* Docker Registry @ [kylemanna/openvpn](https://hub.docker.com/r/kylemanna/syncthing-relay/)
-* GitHub @ [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-syncthing-relay)
+* Docker Registry @ [derenderkeks/syncthing-relay](https://hub.docker.com/r/derenderkeks/syncthing-relay/)
+* GitHub @ [derenderkeks/docker-syncthing-relay](https://github.com/derenderkeks/docker-syncthing-relay)
 
 ## Quick Start
 
 Just run:
 
-    docker run --rm -p 22067:22067 -p 22070:22070 kylemanna/syncthing-relay
+    docker run --rm -p 22067:22067 -p 22070:22070 derenderkeks/syncthing-relay
 
 Verify your server shows up at http://relays.syncthing.net/
 
