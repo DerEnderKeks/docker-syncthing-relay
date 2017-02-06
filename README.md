@@ -1,9 +1,8 @@
 # Syncthing Relay Docker Image 
 
-[![Build Status](https://travis-ci.org/derenderkeks/docker-syncthing-relay.svg)](https://travis-ci.org/derenderkeks/docker-syncthing-relay)
+[![Builds](https://img.shields.io/docker/automated/derenderkeks/syncthing-relay.svg)](https://hub.docker.com/r/derenderkeks/syncthing-relay/)
 [![Docker Stars](https://img.shields.io/docker/stars/derenderkeks/syncthing-relay.svg)](https://hub.docker.com/r/derenderkeks/syncthing-relay/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/derenderkeks/syncthing-relay.svg)](https://hub.docker.com/r/derenderkeks/syncthing-relay/)
-[![ImageLayers](https://images.microbadger.com/badges/image/derenderkeks/syncthing-relay.svg)](https://microbadger.com/#/images/derenderkeks/syncthing-relay)
 
 ## Overview
 Syncthing Relay to help Syncthing clients relay data when they can't communicate directly due to things like NAT routers and firewalls blocking inbound TCP connections.
@@ -21,7 +20,9 @@ Extensively tested on Digital Ocean $5/mo node
 
 Just run:
 
-    docker run --rm -p 22067:22067 -p 22070:22070 derenderkeks/syncthing-relay
+```
+docker run --rm -p 22067:22067 -p 22070:22070 derenderkeks/syncthing-relay
+```
 
 Verify your server shows up at http://relays.syncthing.net/
 
