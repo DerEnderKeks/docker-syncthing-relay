@@ -10,7 +10,8 @@ ENV RELEASE  ${NAME}-${ARCH}-${VERSION}
   
   # Busybox wget needs TLS support, curl is less painful to get working
 RUN apk add --update ca-certificates curl && \
-    curl -sL https://build.syncthing.net/job/${NAME}/${JOB}/artifact/${RELEASE}.tar.gz | tar xzf - && \ mv ${RELEASE}/strelaysrv /usr/local/bin/ && \
+    curl -sL https://build.syncthing.net/job/${NAME}/${JOB}/artifact/${RELEASE}.tar.gz | tar xzf - && \ 
+    mv ${RELEASE}/strelaysrv /usr/local/bin/ && \
     rm -rf ${RELEASE} && \
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
