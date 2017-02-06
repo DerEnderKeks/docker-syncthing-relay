@@ -1,6 +1,6 @@
 [Unit]
 Description=Syncthing Relay Docker Container
-Documentation=https://github.com/kylemanna/docker-syncthing-relay
+Documentation=https://github.com/derenderekeks/docker-syncthing-relay
 After=network.target docker.socket
 Requires=docker.socket
 
