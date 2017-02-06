@@ -29,9 +29,11 @@ Verify your server shows up at http://relays.syncthing.net/
 
 Here's the quick start guide for setting up a systemd service that will listen on the defualt ports and start at boot time.  It will also attempt to pull down image updates each time the service starts and automatically restart after 10 seconds if the process exits.  This Docker container preserves no state across starts.
 
-    cd /etc/systemd/system
-    sudo curl -O https://raw.githubusercontent.com/derenderkeks/docker-syncthing-relay/master/init/docker-syncthing-relay.service
-    sudo systemctl daemon-reload
-    sudo systemctl start docker-syncthing-relay.service
-    sudo systemctl status docker-syncthing-relay.service
-    sudo systemctl enable docker-syncthing-relay.service
+```
+cd /etc/systemd/system
+sudo curl -O https://raw.githubusercontent.com/derenderkeks/docker-syncthing-relay/master/init/docker-syncthing-relay.service
+sudo systemctl daemon-reload
+sudo systemctl start docker-syncthing-relay.service
+sudo systemctl status docker-syncthing-relay.service
+sudo systemctl enable docker-syncthing-relay.service
+```
